@@ -1,0 +1,200 @@
+* {
+	margin: 0;
+	padding: 0;
+    box-sizing: border-box;
+}
+body {
+	font-family: 'Poppins', sans-serif; 
+	width: 100%;
+	height:100vh;
+	background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.1)), url("Background/images.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+nav 
+{
+	background: rgba(0, 0, 0, 0.3);
+	height: 15vh;
+}
+.nav-area {
+	float: right;
+	list-style: none;
+	margin-top: 30px;
+}
+.nav-area li {
+	display: inline-block;
+}
+.nav-area li a {
+	color: #fff;
+	text-decoration: none;
+	padding: 5px 30px;
+	font-family: poppins;
+	font-size: 16px;
+	text-transform: uppercase;
+	
+}
+.nav-area li a:hover {
+	background: rgba(2, 243, 223, 0.712);
+	color: #333;
+    border-radius: 30px 0px;
+    transition: all .5s ease;
+	transition-delay: 5ms;
+}
+.logo {
+	float: left;
+	padding-left: 50px;
+	padding-top:5px;
+}
+.logo img {
+    width: 13vh;
+    cursor: pointer;
+    border-radius:90%;
+}
+.Info {
+    background-color:white;
+    display: flex;
+    margin: 5% 5% 5% 5%;
+    border: 1px solid lightgrey;
+    border-radius: 3px;
+    padding-top: 10px;
+}
+.person {
+    flex :0.5;
+    padding-left: 20px;
+}
+.person-align {
+    padding-left:16px;
+}
+.cards{
+    flex :0.5;
+}
+.card-align {
+    padding-right:30px;
+}
+
+input[type=text] {
+    width: 500px;
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 1px solid rgb(130, 26, 26);
+    border-radius: 1px;
+   
+}
+
+label {
+    margin-bottom: 10px;
+    display: block;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+}
+
+
+
+.icon-container {
+    margin-bottom: 20px;
+    padding: 7px 0;
+    font-size: 24px;
+}
+
+.checkout {
+    background-color: #01BAEF;
+    color: white;
+    padding: 12px;
+    margin: 10px 0;
+    border: none;
+    width: 75%;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 17px;
+    margin-left: 10%;
+
+}
+
+.checkout:hover {
+    background-color: green;
+}
+footer{
+    width: 100%;
+    margin-top: 10px;
+    background-color: rgba(0, 0, 0, 0.678);
+    color: white;
+}
+.main-content{
+    display: flex;
+}
+.main-content .box{
+    flex-basis: 50%;
+    padding: 10px 20px;
+}
+.box h2{
+    text-transform: uppercase;
+    border-bottom: 5px solid white;
+}
+.box .content{
+    margin: 20px 0px 0px 0px;
+}
+.left .content p{
+    text-align: justify;
+}
+.left .content .social{
+    margin: 20px 0px 0px 0px;
+}
+.left .content .social a{
+    padding: 0px 30px;
+    color: black;
+} 
+.left .content .social a i{
+    height: 30px;
+    width: 30px;
+    background: white;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 4px;
+   
+    transition: .3s;
+} 
+.left .content .social a i:hover{
+    background: greenyellow; 
+    transform: scale(1.04);
+    color: white;
+ } 
+ .center .content .place .fa,.center .content .contact .fa,.center .content .email .fa {
+    height: 40px;
+    width: 40px;
+    color: black;
+    margin-top: 5px;
+    margin-right: 10px;
+    background: white;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 4px;
+   padding-top: 4px;
+    transition: .3s;
+} 
+.center .content .place .fa:hover,.center .content .contact .fa:hover,.center .content .email .fa:hover{
+    background: greenyellow; 
+    transform: scale(1.04);
+    color: white;
+ } 
+ .feed{
+    text-align: center;
+	padding: 10px;
+	height: 225px;
+	border: 1px solid silver;
+    border-radius: 5px
+ }
+ .feed input[type= email]{
+     padding:5px;
+    width: 100%;
+ }
+ button{
+    color: black;
+	background-color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    transition: .5s;
+}
+button:hover{
+    background: greenyellow;
+	color: white;
+}

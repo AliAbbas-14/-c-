@@ -1,0 +1,184 @@
+* {
+	margin: 0;
+	padding: 0;
+    box-sizing: border-box;
+}
+body {
+	font-family: 'Poppins', sans-serif; 
+	width: 100%;
+	height:100vh;
+	background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.1)), url("Background/785857e15ddbe19.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+nav 
+{
+	background: rgba(0, 0, 0, 0.3);
+	height: 15vh;
+}
+.nav-area {
+	float: right;
+	list-style: none;
+	margin-top: 30px;
+}
+.nav-area li {
+	display: inline-block;
+}
+.nav-area li a {
+	color: #fff;
+	text-decoration: none;
+	padding: 5px 30px;
+	font-family: poppins;
+	font-size: 16px;
+	text-transform: uppercase;
+	
+}
+.nav-area li a:hover {
+	background: rgba(2, 243, 223, 0.712);
+	color: #333;
+    border-radius: 30px 0px;
+    transition: all .5s ease;
+	transition-delay: 5ms;
+}
+.logo {
+	float: left;
+	padding-left: 50px;
+	padding-top:5px;
+}
+.logo img {
+    width: 13vh;
+    cursor: pointer;
+    border-radius:90%;
+}
+
+
+
+
+
+
+/* main */
+
+
+main{
+	justify-content: center;
+	align-items: center;
+	text-align: center; color: white;
+	margin-top: 10%;
+	font-style: italic;
+	margin-bottom: 10%;
+}
+
+
+section h3{
+	font-size: 35px; font-weight: 200; letter-spacing: 3px;
+	text-shadow: 1px 1px 2px black;
+}
+
+section h1{
+	margin: auto;
+	font-size: 55px;
+	font-weight: 700;
+	text-shadow: 2px 1px 5px black;
+	text-transform: uppercase;
+}
+section h1 span{
+	font-size: 45px ;
+	color: rgb(64, 224, 64);
+	text-transform: uppercase;
+}
+
+section h2{
+	margin-bottom: 25px;
+	word-spacing: 2px;
+	margin-top: 5px;
+	text-shadow: 2px 1px 5px black;
+	text-shadow: 1px 1px 1px black;
+}
+
+
+
+footer{
+    width: 100%;
+    margin-top: 10px;
+    background-color: rgba(0, 0, 0, 0.678);
+    color: white;
+}
+.main-content{
+    display: flex;
+}
+.main-content .box{
+    flex-basis: 50%;
+    padding: 10px 20px;
+}
+.box h2{
+    text-transform: uppercase;
+    border-bottom: 5px solid white;
+}
+.box .content{
+    margin: 20px 0px 0px 0px;
+}
+.left .content p{
+    text-align: justify;
+}
+.left .content .social{
+    margin: 20px 0px 0px 0px;
+}
+.left .content .social a{
+    padding: 0px 30px;
+    color: black;
+} 
+.left .content .social a i{
+    height: 30px;
+    width: 30px;
+    background: white;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 4px;
+   
+    transition: .3s;
+} 
+.left .content .social a i:hover{
+    background: greenyellow; 
+    transform: scale(1.04);
+    color: white;
+ } 
+ .center .content .place .fa,.center .content .contact .fa,.center .content .email .fa {
+    height: 40px;
+    width: 40px;
+    color: black;
+    margin-top: 5px;
+    margin-right: 10px;
+    background: white;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 4px;
+   padding-top: 4px;
+    transition: .3s;
+} 
+.center .content .place .fa:hover,.center .content .contact .fa:hover,.center .content .email .fa:hover{
+    background: greenyellow; 
+    transform: scale(1.04);
+    color: white;
+ } 
+ .feed{
+    text-align: center;
+	padding: 10px;
+	height: 225px;
+	border: 1px solid silver;
+    border-radius: 5px
+ }
+ .feed input[type= email]{
+     padding:5px;
+    width: 100%;
+ }
+ button{
+    color: black;
+	background-color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    transition: .5s;
+}
+button:hover{
+    background: greenyellow;
+	color: white;
+}

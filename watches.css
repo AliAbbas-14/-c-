@@ -1,0 +1,214 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+body
+{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.1)), url("Background/watch(1).jpeg");
+  background-attachment: fixed;
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+}
+nav 
+{
+	background: rgba(0, 0, 0, 0.3);
+	height: 15vh;
+}
+.nav-area {
+	float: right;
+	list-style: none;
+	margin-top: 30px;
+}
+.nav-area li {
+	display: inline-block;
+}
+.nav-area li a {
+	color: #fff;
+	text-decoration: none;
+	padding: 5px 30px;
+	font-family: poppins;
+	font-size: 16px;
+	text-transform: uppercase;
+	
+}
+.nav-area li a i {
+    height: 30px;
+    width: 30px;
+    text-align: center;
+    border-radius: 4px;
+}
+.nav-area li a:hover{
+	background: rgba(2, 243, 223, 0.712);
+	color: #333;
+    border-radius: 30px 0px;
+    transition: all .5s ease;
+	transition-delay: 5ms;
+}
+.logo {
+	float: left;
+	padding-left: 50px;
+	padding-top:5px;
+}
+.logo img {
+    width: 13vh;
+    cursor: pointer;
+    border-radius:90%;
+}
+
+
+
+h1
+{
+	text-align: center;
+	max-width: 1300px;
+	margin: 20px auto;
+	color: white;
+	border: 5px solid wheat;
+	font-size: 170px;
+	background: linear-gradient(rgb(252, 252, 252),rgba(0, 0, 0, 0.438));
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.cards
+{
+	width:25%;
+	display: inline-block;
+	box-shadow: 3px 3px 12px rgba(0, 0, 0, 0.336);
+	border-radius: 5px;
+	margin: 40px;
+	background-color: pink;
+}
+.cards:hover{
+	transform: scale(1.03);
+}
+.cards img
+{
+	width: 100%;
+    height: 250px;
+}
+.cards img:hover{
+	transform: scale(1.03);
+}
+
+.cards img:hover{
+	transform: scale(1.03);
+}
+.title
+{
+	text-align:center;
+	padding: 5px;
+	color: white;
+}
+.description
+{
+	text-align: center;
+	padding:5px;
+	font-size: 20px;
+}
+button
+{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	background-color: white;
+	border: 1px solid black;
+	padding:5px;
+	border-radius:5px;
+}
+ button:hover
+{
+	background-color: black;
+	color:white;
+	transition:.7s;
+	cursor: pointer;
+}
+
+
+
+
+
+footer{
+    width: 100%;
+    margin-top: 10px;
+    background-color: rgba(0, 0, 0, 0.678);
+    color: white;
+}
+.main-content{
+    display: flex;
+}
+.main-content .box{
+    flex-basis: 50%;
+    padding: 10px 20px;
+}
+.box h2{
+    text-transform: uppercase;
+    border-bottom: 5px solid white;
+}
+.box .content{
+    margin: 20px 0px 0px 0px;
+}
+.left .content p{
+    text-align: justify;
+}
+.left .content .social{
+    margin: 20px 0px 0px 0px;
+}
+.left .content .social a{
+    padding: 0px 30px;
+    color: black;
+} 
+.left .content .social a i{
+    height: 30px;
+    width: 30px;
+    background: white;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 4px;
+   
+    transition: .3s;
+} 
+.left .content .social a i:hover{
+    background: greenyellow; 
+    transform: scale(1.04);
+    color: white;
+ } 
+ .center .content .place .fa,.center .content .contact .fa,.center .content .email .fa {
+    height: 40px;
+    width: 40px;
+    color: black;
+    margin-top: 5px;
+    margin-right: 10px;
+    background: white;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 4px;
+   padding-top: 4px;
+    transition: .3s;
+} 
+.center .content .place .fa:hover,.center .content .contact .fa:hover,.center .content .email .fa:hover{
+    background: greenyellow; 
+    transform: scale(1.04);
+    color: white;
+ } 
+ .feed{
+    text-align: center;
+	padding: 10px;
+	height: 225px;
+	border: 1px solid silver;
+    border-radius: 5px
+ }
+ .feed input[type= email]{
+     padding:5px;
+    width: 100%;
+ }
+ button{
+    color: black;
+	background-color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    transition: .5s;
+}
+button:hover{
+    background: greenyellow;
+	color: white;
+}
